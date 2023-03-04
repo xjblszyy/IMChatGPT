@@ -1,0 +1,16 @@
+api_key: "" # chatgpt中的生成的密钥
+keyword: "chatgpt"  # 关键字触发,全局的，优先级低于各个im中配置的keyword
+proxy: "https://user:password@prox-server:port" # 代理设置，可以参考shellclash 开源项目配置您自己的代理
+wechat: # 微信配置
+  black_list:  # 加黑名单方式: 群名称或者微信昵称即可
+    - "小红"
+    - "小白"
+  enabled: true # 是否开启
+  keyword: "wechat"
+telegram: # 电报配置
+  token: ""
+  enabled: false # 是否开启
+  keyword: "telegram"
+  black_list: # 加黑名单方式: 群名称或者微信昵称即可
+    - "小红"
+    - "小白"
